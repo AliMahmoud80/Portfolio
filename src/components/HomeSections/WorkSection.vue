@@ -34,13 +34,24 @@ export default {
 
   setup () {
     const projects = [
-      // {
-      //   name: 'EXBooks',
-      //   description: "Web app to exchange books with others with advanced features built with laravel, vuejs and tailwindcss.",
-      //   technologies: ['laravel', 'vue', 'tailwindcss'],
-      //   features: ['Fast and performant.', 'Users Authentication/Autherization.', 'Ability to exchange multiable books with one or multiable books.', 'Responsive with small screens', 'Can upload preview photos of the books to reavel its condition.', 'Very easy to use.'],
-      //   preview: ['']
-      // },
+      {
+        name: 'EXBooks',
+        description: "Web app to exchange books with others with advanced features built with laravel, vuejs and tailwindcss.",
+        technologies: ['laravel', 'vue', 'tailwindcss'],
+        features: ['Users Authentication/Autherization.', 'Built with security in mind.','Ability to exchange multiable books with one or multiable books.', 'Responsive with small screens', 'Can upload preview photos of the books to reavel its condition.', 'Very easy to use.', 'Features like updating user details/password, server side and client side validation, paginations and search.'],
+        viewLink: "https://exbooks.herokuapp.com/",
+        preview: [
+          'exbooks/f1.png',
+          'exbooks/f2.png',
+          'exbooks/f8.png',
+          'exbooks/f5.png',
+          'exbooks/f9.png',
+          'exbooks/f3.png',
+          'exbooks/f4.png',
+          'exbooks/f6.png',
+          'exbooks/f7.png',
+        ]
+      },
       {
         name: 'Dashboard',
         description: "Complex web app dashboard built with react, react router and material ui.",
