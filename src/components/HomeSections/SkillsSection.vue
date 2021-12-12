@@ -15,10 +15,6 @@
         <a href="https://reactjs.org/" target="_blank">React JS</a>
       </div>
       <div>
-        <img src="https://nuxtjs.org/logos/nuxt-white.svg" class="w-28 mt-3" alt="Nuxt JS">
-        <a href="https://nuxtjs.org" class="mt-2">Nuxt JS</a>
-      </div>
-      <div>
         <img src="@/assets/images/tailwindcss.svg" class="mt-3" width="96" alt="TailwindCss">
         <a href="https://tailwindcss.com/" target="_blank" class="mt-8">TailwindCss</a>
       </div>
